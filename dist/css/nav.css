@@ -1,0 +1,42 @@
+.nav {
+    background: rgba(253, 0, 0, 0.945);
+    position: fixed;
+    z-index: 10;
+    width: 100%; 
+    z-index: 100;  
+} 
+
+.nav__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.nav__div__img {
+    width: 100px;
+    height: auto;
+} 
+
+.nav__div__img__ul {
+    display: flex;
+} 
+
+.nav__div__img__ul__li {
+    margin-right: 20px;
+    list-style: none;
+    color: rgb(7, 7, 7);
+    padding-top: 5px ;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    padding-left: 8px;
+    transition: background 0.5s, transform 0.5s;
+    border-radius: 20px;
+} 
+
+.nav__div__img__ul__li:hover {
+background: rgba(121, 2, 2, 0.945);
+transform: scale(1.05) rotate(-2deg);
+color: white
+
+}
+

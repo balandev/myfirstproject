@@ -1,0 +1,23 @@
+.header {
+    height: 100vh;
+    position: relative;
+    background: black;
+}
+
+.header__h1 {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 80PX;
+}
+
+.header__img {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    opacity: 0.5;
+}
